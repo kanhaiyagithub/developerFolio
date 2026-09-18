@@ -28,6 +28,16 @@
   color: $subTitle;
 }
 
+.skill-headline {
+  font-weight: 800;
+  color: #000000 !important;
+}
+
+.skill-headline-dark {
+  font-weight: 800;
+  color: #ffffff !important;
+}
+
 /* Media Query */
 @media (max-width: 1380px) {
   .skills-heading {

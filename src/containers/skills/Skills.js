@@ -46,6 +46,34 @@ export default function Skills() {
             <SoftwareSkill />
             <div>
               {skillsSection.skills.map((skills, i) => {
+                const renderSkillText = (skillItem) => {
+                  if (Array.isArray(skillItem)) {
+                    return skillItem.map((part, idx) => {
+                      if (typeof part === "string" && part.includes(":")) {
+                        const colonIdx = part.indexOf(":");
+                        const headline = part.substring(0, colonIdx);
+                        const rest = part.substring(colonIdx);
+                        return (
+                          <React.Fragment key={idx}>
+                            <strong
+                              className={
+                                isDark
+                                  ? "skill-headline-dark"
+                                  : "skill-headline"
+                              }
+                            >
+                              {headline}
+                            </strong>
+                            {rest}
+                          </React.Fragment>
+                        );
+                      }
+                      return part;
+                    });
+                  }
+                  return skillItem;
+                };
+
                 return (
                   <p
                     key={i}
@@ -55,7 +83,7 @@ export default function Skills() {
                         : "subTitle skills-text"
                     }
                   >
-                    {skills}
+                    {renderSkillText(skills)}
                   </p>
                 );
               })}

@@ -16,47 +16,48 @@ const splashScreen = {
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true // Set to true for Lottie animations in Skills section
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Nidhi Kumari",
+  title: "Hi all, I'm Nidhi",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Building Enterprise products that don't break when it matters most  | A Product Manager delivering SaaS Enterprise Products from 0 to 1 | Driving Efficiency Gains Through Data-Driven Solutions."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "/docs/Nidhi_PM_resume.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  linkedin: "https://www.linkedin.com/in/nidhi-kumari-805658193/",
+  gmail: "nk370510@gmail.com",
   display: true // Set true to display this section, defaults to false
 };
 
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Skills",
+  subTitle: "A PRODUCT MANAGER DELIVERING SAAS ENTERPRISE PRODUCTS FROM 0 TO 1",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      " Product Strategy & Analytics: Product Strategy, Product Vision, Product Analytics, Product Discovery, User Research, Roadmapping, Wireframing, PRD Writing, A/B Testing, Agile, Scrum, RICE Prioritization, AARRR Metrics, OKRs, GTM Strategy, Competitive & Market Analysis, Stakeholder Management"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      " Analytics & Technical: SQL, Funnel Analysis, A/B Testing, Root Cause Analysis, Data-Driven Decision-Making, KPI Development & Monitoring, Google Analytics, Dashboard Development, MIS Reporting"
+    ),
+    emoji(
+      " Tools & Platforms: Figma, Jira, Advanced Excel, Power BI, Notion, Shopify, Facebook Ads Manager, Payment Gateways / UPI Systems"
+    ),
+    emoji(
+      " AI & Automation: ChatGPT, Claude, Gemini, Cursor AI, Perplexity AI, n8n, Make"
+    ),
+    emoji(
+      " Key Highlights & Metrics: 10M+ Data Points | 99.5% Uptime | 50+ Clients"
     )
   ],
 
@@ -65,56 +66,36 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Figma",
+      fontAwesomeClassname: "fab fa-figma"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Jira",
+      fontAwesomeClassname: "fab fa-jira"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
+      skillName: "SQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "Google Analytics",
+      fontAwesomeClassname: "fas fa-chart-bar"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "Product Analytics",
+      fontAwesomeClassname: "fas fa-chart-line"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "Agile / Scrum",
+      fontAwesomeClassname: "fas fa-tasks"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "AI Tools",
+      fontAwesomeClassname: "fas fa-robot"
+    },
+    {
+      skillName: "Automation",
+      fontAwesomeClassname: "fas fa-cogs"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +107,20 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Galgotias University",
+      logo: require("./assets/images/stanfordLogo.png"),
+      subHeader: "B.Tech, Electronics and Communication Engineering",
+      duration: "2016 – 2020",
+      desc: "Graduated with a Bachelor of Technology in Electronics and Communication Engineering.",
+      descBullets: []
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Airtribe",
+      logo: require("./assets/images/harvardLogo.png"),
+      subHeader: "Product Management Launchpad",
+      duration: "June 2024 – Nov 2024",
+      desc: "Intensive Product Management Bootcamp focusing on 0-to-1 product strategy, discovery, PRDs, and GTM.",
+      descBullets: []
     }
   ]
 };
@@ -153,19 +131,23 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Product Strategy & Discovery",
+      progressPercentage: "95%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Analytics & Data-Driven Decisions",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Growth & GTM Execution",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Agile, Scrum & PLM",
+      progressPercentage: "90%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
 
 // Work experience section
@@ -174,67 +156,136 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Associate Product Manager",
+      company: "PXY Media",
+      companylogo: require("./assets/images/pxymedia_logo.webp"),
+      date: "12/2024 – 06/2025 | Hyderabad",
+      desc: "As an Associate Product Manager, led product strategy and discovery-to-launch for key SaaS and growth initiatives.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Product Strategy & Launch: Launched Visaz 0→1 in 30 days by defining product vision, wireframes, PRDs, and GTM strategy while leading a 5-person team and applying stakeholder management across 8 partners in Engineering, Design, QA, and Business.",
+        "User Experience & Engagement: Grew cross-device engagement by 15 points (25% relative lift) across a 10K-user base and cut bounce rate by 15% via user research - heatmaps and behavioral analytics - to redesign mobile-first journeys.",
+        "Product Lifecycle Management (PLM): Delivered 100% on-time releases across 10+ features by owning discovery-to-launch - requirements, PRDs, sprint planning, and QA - within Agile/Scrum.",
+        "SEO & Growth Hacking: Grew organic traffic from 10K to 11.5K monthly visits (+15%) and session duration by 20% via CMS-driven content and SEO optimizations, informed by competitive and market analysis.",
+        "Operational Efficiency & Tooling: Cut bug resolution time from 5 days to 1 day (80% faster) by designing a Jira-based bug-tracking workflow with severity tagging and SLA monitoring."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Manager – Growth & Product",
+      company: "Unacademy",
+      companylogo: require("./assets/images/images.png"),
+      date: "05/2021 – 06/2024 | Noida",
+      desc: "Owned payment roadmap, GTM execution, and data-driven UX optimization for core subscription products.",
+      descBullets: [
+        "Product Strategy & Monetization: Owned the payment roadmap end-to-end, aligned to quarterly OKRs, shipping an A/B-tested redesign that lifted paid subscriptions by 25% within 6 months.",
+        "Growth & GTM Execution: Co-owned GTM strategy with Marketing - segments, activation flows, messaging - growing new user sign-ups by 35% in a quarter.",
+        "Data-Driven UX Optimization: Increased average watch time by 20% and user retention by 30% via discovery on Live Class, turning research into a prioritized roadmap.",
+        "Customer Insights & Roadmap Ownership: Built a continuous voice-of-customer program for premium tiers (Iconic & Plus), lifting CSAT by 40% and feeding quarterly roadmap planning.",
+        "Cross-Functional Leadership: Served as central product point of contact across Sales, Marketing, and Engineering, using stakeholder management to align acquisition strategy with execution."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Senior Business Development Associate",
+      company: "Unacademy",
+      companylogo: require("./assets/images/images.png"),
+      date: "05/2020 – 05/2021 | Noida",
+      desc: "Owned market analysis and team productivity initiatives contributing to significant organizational growth.",
+      descBullets: [
+        "Strategic Growth & Market Analysis: Owned market analysis across a 2,000-user base, identifying gaps that contributed to 180% organizational growth over two years.",
+        "Process Improvement & Training: Built structured training modules that boosted team productivity by 20%."
+      ]
     }
   ]
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
+/* Your Open Source Section to View Your Github Pinned Projects */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github
+  display: false // Set false to hide this section
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "PRODUCT MANAGEMENT CASE STUDIES & STRATEGIC PROJECTS",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/snitch_cover-01.png"),
+      projectName: "Project 1: Snitch Clothing Case Study",
+      projectDesc:
+        "Comprehensive Product Case Study on increasing Snitch's Average Order Value (AOV) from ₹2,500 to ₹5,000 within 12 months, driving higher AOV and Customer Lifetime Value (CLTV).\n\nSkills Learned: Product Thinking, User Research, Product Sense, Product Analytics, Metrics, Wireframing, Feature Prioritization.\nTime to Complete: 3 Weeks | Tools: Figma, MixPanel, Google Analytics, Canva, Loom",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View Case Study PDF",
+          url: "/docs/Snitch_Case_Study_Nidhi_Kumari.pdf"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/rapido_image.jpeg"),
+      projectName: "Project 2: Rapido Case Study",
+      projectDesc:
+        "Product Discovery, Market & User Research case study for Rapido's supply pod. Formulated short & medium-term solutions to overcome friction between bike taxi captains and auto-rickshaw drivers to revive driver retention and supply growth.\n\nSkills Learned: Product Thinking, Market Research, Problem Solving, Prioritization, Product Sense, Product Analytics, Stakeholder Management, Project Management.\nTools: Canva",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View Case Study PDF",
+          url: "/docs/Rapido_Case_Study_Nidhi_Kumari.pdf"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/shorts.jpeg"),
+      projectName: "Project 3: YouTube Shorts Case Study",
+      projectDesc: "Problem framing & prioritization case study for YouTube Shorts. Identified 6 top engagement strategies (3 low-effort, 3 high-effort/impact) derived from 20+ user interviews and prioritized using the RICE framework.\n\nSkills Learned: Product Thinking, Problem Solving, Prioritization, User Research, Feature Prioritization, MoM Framework, Product Sense, Product Analytics.\nTools: Jira, Canva, Google Analytics",
+      footerLink: [
+        {
+          name: "View Case Study PDF",
+          url: "/docs/YouTube_Shorts_Case_Study_Nidhi_Kumari.pdf"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/sriMandir.png"),
+      projectName: "Project 4: Sri Mandir PRD",
+      projectDesc: "Drafted a comprehensive PRD to implement and test a personalized discount nudge feature, aiming to enhance the subscription renewal rate for the Sri Mandir app.\n\nSkills Learned: Empathy Mapping, Business Reporting, Stakeholder Management, Data Visualization, Project Management.\nTools: Figma, Canva",
+      footerLink: [
+        {
+          name: "View Case Study PDF",
+          url: "/docs/Sri_Mandir_PRD_Nidhi_Kumari.pdf"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/Analytics.jpeg"),
+      projectName: "Project 5: Analytics and Metrics",
+      projectDesc: "Brainstormed North Star Metrics and OKRs (2+ Objectives, 3+ KRs each) for Amazon Prime (churn reduction), YouTube Music (acquiring 1st time users vs Spotify in India), and Zepto (reducing contact center cost).\n\nSkills Learned: Problem Solving, Competitor Analysis, Market Research, MoM Framework, Product Analytics",
+      footerLink: [
+        {
+          name: "View Case Study PDF",
+          url: "/docs/Analytics_and_Metrics_Nidhi_Kumari.pdf"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/instagram.jpeg"),
+      projectName: "Project 6: Growth Loops Identification for Instagram",
+      projectDesc: "Analyzed and optimized growth loops for Instagram. Defined Epics for feature improvements, supported by clear user research/product strategy rationale, and prioritized via RICE.\n\nSkills Learned: Product Thinking, Problem Solving, Data Analysis, Business Reporting.\nTools: Google Analytics, Notion",
+      footerLink: [
+        {
+          name: "View Case Study PDF",
+          url: "/docs/Instagram_Growth_Loops_Nidhi_Kumari.pdf"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/fitness.jpeg"),
+      projectName: "Project 7: UI/UX for a Fitness App",
+      projectDesc: "Created a 1-pager for design teams and basic wireframe flows for an engaging, personalized fitness app that helps users achieve fitness goals and track progress.\n\nSkills Learned: Personas, Empathy Mapping, User Flow, Customer Journey Map, Product Sense, Wireframing.\nTools: Figma",
+      footerLink: [
+        {
+          name: "View Case Study PDF",
+          url: "/docs/Fitness_App_Wireframes_Nidhi_Kumari.pdf"
         }
       ]
     }
@@ -246,59 +297,79 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements & Certifications 🏆"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Certifications, Awards, and Key Recognition in Product Management, UI/UX, and Analytics!",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Airtribe — Product Management Bootcamp",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Completed Product Management Launchpad covering product discovery, PRD writing, roadmapping, and GTM strategy.",
+      image: require("./assets/images/airtribe.png"),
+      imageAlt: "Airtribe Certificate",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View Certification",
+          url: "https://www.airtribe.live/product-management/certificate/09PYEL4NU8JX"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "UI / UX for Beginners — Great Learning",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Certificate of Completion for UI / UX for Beginners awarded to Nidhi Kumari by Great Learning Academy.",
+      image: require("./assets/images/uiux_certificate-1.png"),
+      imageAlt: "UI/UX Great Learning Certificate",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Certificate",
+          url: "https://www.mygreatlearning.com/certificate/RSEAXUVT"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Google Analytics — Great Learning",
+      subtitle:
+        "Certificate of Completion for Google Analytics awarded to Nidhi Kumari by Great Learning Academy.",
+      image: require("./assets/images/google_analytics_certificate-1.png"),
+      imageAlt: "Google Analytics Great Learning Certificate",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "View Certificate",
+          url: "https://www.mygreatlearning.com/certificate/FFHNVOUR"
         }
       ]
-    }
+    },
+    {
+      title: "SQL for Data Science — Great Learning",
+      subtitle:
+        "Certificate of Completion for SQL for Data Science awarded to Nidhi Kumari by Great Learning Academy.",
+      image: require("./assets/images/sql_certificate.png"),
+      imageAlt: "SQL for Data Science Great Learning Certificate",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://www.mygreatlearning.com/certificate/QGGRPRPP"
+        }
+      ]
+    },
+    // {
+    //   title: "Star Performer, Product & Growth",
+    //   subtitle:
+    //     "Unacademy, 2023 — Awarded Star Performer for driving key growth and retention metrics.",
+    //   image: require("./assets/images/saayaHealthLogo.webp"),
+    //   imageAlt: "Star Performer",
+    //   footerLink: []
+    // },
+    // {
+    //   title: "Sales Champion",
+    //   subtitle:
+    //     "Unacademy, 2020 — Generated ₹1 Cr in revenue within 6 months.",
+    //   image: require("./assets/images/nextuLogo.webp"),
+    //   imageAlt: "Sales Champion",
+    //   footerLink: []
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -307,83 +378,53 @@ const achievementSection = {
 
 const blogSection = {
   title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  subtitle: "",
+  displayMediumBlogs: "false",
+  blogs: [],
+  display: false // Set false to hide this section
 };
 
 // Talks Sections
 
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
-
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  subtitle: "",
+  talks: [],
+  display: false // Set false to hide this section
 };
 
 // Podcast Section
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: true // Set false to hide this section, defaults to true
+  subtitle: "",
+  podcast: [],
+  display: false // Set false to hide this section
 };
 
 // Resume Section
 const resumeSection = {
   title: "Resume",
-  subtitle: "Feel free to download my resume",
-
-  // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  subtitle: "View or contact to request resume",
+  display: true // Set false to hide this section
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Open to Product Management opportunities & discussions. Feel free to reach out!",
+  number: "+91-9911525020",
+  email_address: "nk370510@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "",
+  display: false // Set false to hide this section
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set true if open for opportunities
 
 export {
   illustration,
