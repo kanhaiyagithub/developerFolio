@@ -6,7 +6,6 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import {greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
-import profileImage from "../../assets/images/profile.jpeg";
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
@@ -56,7 +55,7 @@ export default function Greeting() {
           <div className="greeting-image-div">
             <img
               alt="Nidhi Kumari Profile"
-              src={profileImage}
+              src={process.env.PUBLIC_URL + "/images/profile.jpg"}
               className="profile-image"
             ></img>
           </div>
