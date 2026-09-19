@@ -26,7 +26,7 @@ const greeting = {
     "Building Enterprise products that don't break when it matters most  | A Product Manager delivering SaaS Enterprise Products from 0 to 1 | Driving Efficiency Gains Through Data-Driven Solutions."
   ),
   resumeLink:
-    "/docs/Nidhi_PM_resume.pdf", // Set to empty to hide the button
+    "https://kanhaiyaimage.s3.eu-north-1.amazonaws.com/docs/Nidhi+_+PM+resume.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -218,7 +218,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "View Case Study PDF",
-          url: "/docs/Snitch_Case_Study_Nidhi_Kumari.pdf"
+          url: "https://kanhaiyaimage.s3.eu-north-1.amazonaws.com/docs/Snitch_Case_Study_Nidhi_Kumari.pdf"
         }
       ]
     },
@@ -230,7 +230,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "View Case Study PDF",
-          url: "/docs/Rapido_Case_Study_Nidhi_Kumari.pdf"
+          url: "https://kanhaiyaimage.s3.eu-north-1.amazonaws.com/docs/Rapido_Case_Study_Nidhi_Kumari.pdf"
         }
       ]
     },
@@ -241,7 +241,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "View Case Study PDF",
-          url: "/docs/YouTube_Shorts_Case_Study_Nidhi_Kumari.pdf"
+          url: "https://kanhaiyaimage.s3.eu-north-1.amazonaws.com/docs/YouTube_Shorts_Case_Study_Nidhi_Kumari.pdf"
         }
       ]
     },
@@ -252,7 +252,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "View Case Study PDF",
-          url: "/docs/Sri_Mandir_PRD_Nidhi_Kumari.pdf"
+          url: "https://kanhaiyaimage.s3.eu-north-1.amazonaws.com/docs/Sri_Mandir_PRD_Nidhi_Kumari.pdf"
         }
       ]
     },
@@ -263,7 +263,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "View Case Study PDF",
-          url: "/docs/Analytics_and_Metrics_Nidhi_Kumari.pdf"
+          url: "https://kanhaiyaimage.s3.eu-north-1.amazonaws.com/docs/Analytics+and+Metrics+(2).pdf"
         }
       ]
     },
@@ -274,7 +274,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "View Case Study PDF",
-          url: "/docs/Instagram_Growth_Loops_Nidhi_Kumari.pdf"
+          url: "https://kanhaiyaimage.s3.eu-north-1.amazonaws.com/docs/Growth+Loop+Identification+(1).pdf"
         }
       ]
     },
@@ -285,7 +285,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "View Case Study PDF",
-          url: "/docs/Fitness_App_Wireframes_Nidhi_Kumari.pdf"
+          url: "https://kanhaiyaimage.s3.eu-north-1.amazonaws.com/docs/Fitness+App+Wireframes.pdf"
         }
       ]
     }
