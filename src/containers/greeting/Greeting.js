@@ -55,7 +55,7 @@ export default function Greeting() {
           <div className="greeting-image-div">
             <img
               alt="Nidhi Kumari Profile"
-              src={process.env.PUBLIC_URL + "/images/profile.jpg"}
+              src="https://kanhaiyaimage.s3.eu-north-1.amazonaws.com/images/profile.jpeg"
               className="profile-image"
             ></img>
           </div>
