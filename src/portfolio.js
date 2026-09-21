@@ -26,7 +26,7 @@ const greeting = {
     "Building Enterprise products that don't break when it matters most  | A Product Manager delivering SaaS Enterprise Products from 0 to 1 | Driving Efficiency Gains Through Data-Driven Solutions."
   ),
   resumeLink:
-    "https://kanhaiyaimage.s3.eu-north-1.amazonaws.com/docs/Nidhi+_+PM+resume.pdf", // Set to empty to hide the button
+    "https://kanhaiyaimage.s3.eu-north-1.amazonaws.com/docs/Nidhi_Kumari_PM_resume_f.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 

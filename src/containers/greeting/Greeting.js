@@ -41,7 +41,7 @@ export default function Greeting() {
                 {greeting.resumeLink && (
                   <a
                     href={greeting.resumeLink}
-                    download="Nidhi_Kumari_PM_Resume.pdf"
+                    download="/Nidhi_Kumari_PM_resume_f.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="download-link-button"
